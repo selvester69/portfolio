@@ -7,7 +7,7 @@
     "name": "Abhijeet Srivastava",
     "title": "Lead full stack engineer",
     "location": "Bengaluru",
-    "avatar": "/Profile.jpg",
+    "avatar": "Profile.jpg",
     "email": "abhijeet.sri1991@gmail.com",
     "phone": "8010288216",
     "workingHours": "Monday - Friday, 9am - 5pm IST",
@@ -24,7 +24,7 @@
       "Observability",
       "DevOps Practices"
     ],
-    "resumeUrl": "/AbhijeetResume.pdf",
+    "resumeUrl": "AbhijeetResume.pdf",
     "social": [
       {
         "platform": "GitHub",
