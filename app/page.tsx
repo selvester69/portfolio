@@ -85,49 +85,18 @@ export default function Home() {
                   </div>
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
-                    <AnimatedSection animation="slide-right" delay={100}>
-                      <div className="space-y-3">
-                        <h4 className="text-sm font-medium text-zinc-400">Design</h4>
-                        <div className="flex flex-wrap gap-2">
-                          {technicalSkills.design.map((skill, index) => (
-                            <SkillTagComponent key={index}>{skill}</SkillTagComponent>
-                          ))}
+                    {Object.entries(technicalSkills).map(([category, skills], index) => (
+                      <AnimatedSection key={category} animation={index % 2 === 0 ? "slide-right" : "slide-left"} delay={(index + 1) * 100}>
+                        <div className="space-y-3">
+                          <h4 className="text-sm font-medium text-zinc-400 capitalize">{category.replace(/([A-Z])/g, ' $1').trim()}</h4>
+                          <div className="flex flex-wrap gap-2">
+                            {(skills as string[]).map((skill, skillIndex) => (
+                              <SkillTagComponent key={skillIndex}>{skill}</SkillTagComponent>
+                            ))}
+                          </div>
                         </div>
-                      </div>
-                    </AnimatedSection>
-
-                    <AnimatedSection animation="slide-left" delay={200}>
-                      <div className="space-y-3">
-                        <h4 className="text-sm font-medium text-zinc-400">Development</h4>
-                        <div className="flex flex-wrap gap-2">
-                          {technicalSkills.development.map((skill, index) => (
-                            <SkillTagComponent key={index}>{skill}</SkillTagComponent>
-                          ))}
-                        </div>
-                      </div>
-                    </AnimatedSection>
-
-                    <AnimatedSection animation="slide-right" delay={300}>
-                      <div className="space-y-3">
-                        <h4 className="text-sm font-medium text-zinc-400">UX Methods</h4>
-                        <div className="flex flex-wrap gap-2">
-                          {technicalSkills.uxMethods.map((skill, index) => (
-                            <SkillTagComponent key={index}>{skill}</SkillTagComponent>
-                          ))}
-                        </div>
-                      </div>
-                    </AnimatedSection>
-
-                    <AnimatedSection animation="slide-left" delay={400}>
-                      <div className="space-y-3">
-                        <h4 className="text-sm font-medium text-zinc-400">Soft Skills</h4>
-                        <div className="flex flex-wrap gap-2">
-                          {technicalSkills.softSkills.map((skill, index) => (
-                            <SkillTagComponent key={index}>{skill}</SkillTagComponent>
-                          ))}
-                        </div>
-                      </div>
-                    </AnimatedSection>
+                      </AnimatedSection>
+                    ))}
                   </div>
                 </CardContent>
               </Card>
@@ -142,7 +111,7 @@ export default function Home() {
                       <GlobeIcon className="w-5 h-5 mr-2 text-cyan-400" />
                       <h3 className="text-lg font-medium">Recent Projects</h3>
                     </div>
-                    <Button
+                    {projects.length > 3 && <Button
                       variant="ghost"
                       size="sm"
                       className="text-xs sm:text-sm px-2 sm:px-3"
@@ -159,7 +128,7 @@ export default function Home() {
                       }}
                     >
                       View All
-                    </Button>
+                    </Button>}
                   </div>
 
                   <div id="projects-grid" className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
@@ -179,9 +148,9 @@ export default function Home() {
             </AnimatedSection>
 
             {/* LeetCode Section */}
-            <AnimatedSection animation="fade-up" id="leetcode">
+            {/* <AnimatedSection animation="fade-up" id="leetcode">
               <LeetCodeSection />
-            </AnimatedSection>
+            </AnimatedSection> */}
           </div>
         </div>
 

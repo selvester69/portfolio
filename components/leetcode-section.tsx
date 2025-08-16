@@ -102,7 +102,7 @@ export function LeetCodeSection() {
                   ))}
                 </div>
                 <div className="grid grid-cols-7 gap-1">
-                  {leetcodeInfo.heatmapData.map((day, index) => (
+                  {leetcodeInfo?.heatmapData?.map((day, index) => (
                     <div
                       key={index}
                       className={`w-3 h-3 rounded-sm ${getHeatmapColor(day.count)} border border-zinc-700/50`}
@@ -132,7 +132,7 @@ export function LeetCodeSection() {
                 Achievements & Badges
               </h4>
               <div className="flex flex-wrap gap-2">
-                {leetcodeInfo.badges.map((badge, index) => (
+                {leetcodeInfo.badges?.map((badge, index) => (
                   <Badge key={index} variant="outline" className="bg-zinc-800/50 hover:bg-zinc-700 text-xs">
                     <Trophy className="w-3 h-3 mr-1" />
                     {badge}

@@ -1,76 +1,107 @@
 {
   "meta": {
-    "title": "Jane Doe | Product Designer",
-    "description": "Portfolio website showcasing product design work and skills"
+    "title": "Abhijeet Srivastava | Lead Full Stack Engineer",
+    "description": "Portfolio website showcasing full stack development work and skills"
   },
   "personal": {
-    "name": "Jane Doe",
-    "title": "Product Designer",
-    "location": "San Francisco, CA",
-    "avatar": "/confident-professional.png",
-    "email": "jane.doe@example.com",
-    "phone": "+1 (415) 555-2671",
-    "workingHours": "Monday - Friday, 9am - 5pm PST",
+    "name": "Abhijeet Srivastava",
+    "title": "Lead full stack engineer",
+    "location": "Bengaluru",
+    "avatar": "/Profile.jpg",
+    "email": "abhijeet.sri1991@gmail.com",
+    "phone": "8010288216",
+    "workingHours": "Monday - Friday, 9am - 5pm IST",
     "availableForWork": true,
-    "badges": ["UI/UX", "Product Design", "Prototyping"],
-    "resumeUrl": "/resume-jane-doe.pdf",
+    "badges": [
+      "Software Architecture",
+      "Distributed Systems Design",
+      "Technical Leadership",
+      "Scalability & Performance Engineering",
+      "Cloud-Native Development",
+      "Microservices",
+      "Containerization & Orchestration (Docker, Kubernetes)",
+      "Infrastructure as Code (IaC)",
+      "Observability",
+      "DevOps Practices"
+    ],
+    "resumeUrl": "/AbhijeetResume.pdf",
     "social": [
       {
         "platform": "GitHub",
-        "url": "#",
+        "url": "https://github.com/selvester69",
         "icon": "Github"
       },
       {
         "platform": "LinkedIn",
-        "url": "#",
+        "url": "https://www.linkedin.com/in/abhijeets93/",
         "icon": "Linkedin"
-      },
-      {
-        "platform": "Twitter",
-        "url": "#",
-        "icon": "Twitter"
-      },
-      {
-        "platform": "Instagram",
-        "url": "#",
-        "icon": "Instagram"
       }
     ]
   },
   "about": {
-    "bio": "I create user-centered digital experiences that solve real problems. Passionate about accessibility and ethical design with over 5 years of experience in product design and user experience research.",
+    "bio": "Staff Full Stack Engineer with experience in full stack development using Java, Spring Microservices, Angular, Reactjs, and AWS.",
     "focus": [
-      "Creating intuitive and accessible digital products",
-      "Leading design teams and establishing design systems",
-      "Conducting user research to inform product decisions"
+      "Full Stack Development",
+      "Software Architecture",
+      "Microservices",
+      "Cloud-Native Development",
+      "DevOps Practices",
+      "Distributed Systems Design",
+      "Technical Leadership",
+      "Mentorship & Coaching",
+      "Scalability & Performance Engineering",
+      "API Design & Governance",
+      "Event-Driven Architecture",
+      "Serverless Architecture",
+      "Database Design & Optimization",
+      "Caching Strategies",
+      "Containerization & Orchestration (Docker, Kubernetes)",
+      "Infrastructure as Code (IaC)",
+      "CI/CD Pipelines",
+      "Observability (Monitoring, Logging, Tracing)",
+      "Cloud Architecture (AWS, GCP, Azure)",
+      "Application Security (AppSec)",
+      "Domain-Driven Design (DDD)",
+      "Test-Driven Development (TDD)",
+      "Agile Methodologies",
+      "Cross-Functional Collaboration",
+      "Modern JavaScript Frameworks (React, Angular, Vue.js)",
+      "TypeScript",
+      "State Management",
+      "Web Performance Optimization",
+      "Accessibility (A11y)",
+      "Component-Based Architecture"
     ],
     "languages": [
       {
         "name": "English",
-        "proficiency": "Native",
-        "level": 100,
-        "flag": "🇺🇸"
+        "proficiency": "Advanced",
+        "level": 90,
+        "flag": "🇮🇳"
       },
       {
-        "name": "Spanish",
-        "proficiency": "Fluent",
-        "level": 80,
-        "flag": "🇪🇸"
-      },
-      {
-        "name": "French",
-        "proficiency": "Intermediate",
-        "level": 60,
-        "flag": "🇫🇷"
-      },
-      {
-        "name": "German",
-        "proficiency": "Basic",
-        "level": 30,
-        "flag": "🇩🇪"
+        "name": "Hindi",
+        "proficiency": "Advanced",
+        "level": 90,
+        "flag": "🇮🇳"
       }
     ],
-    "interests": ["Design Systems", "Accessibility", "Typography", "Motion Design", "Photography"]
+    "interests": [
+      "Technical Leadership",
+      "Problem Solving",
+      "Code Review And Mentoring",
+      "System Design",
+      "Full Stack Development",
+      "Software Architecture",
+      "Microservices",
+      "Cloud-Native Development",
+      "DevOps Practices",
+      "JavaScript",
+      "Algorithms",
+      "Angular",
+      "React",
+      "SPA Development"
+    ]
   },
   "navigation": [
     {
@@ -94,121 +125,236 @@
       "href": "#projects"
     },
     {
-      "label": "LeetCode",
-      "href": "#leetcode"
-    },
-    {
       "label": "Resume",
-      "href": "/resume",
+      "href": "../AbhijeetResume.pdf",
       "isDownload": true
     }
   ],
   "experience": [
     {
-      "title": "Senior Product Designer",
-      "company": "TechCorp Inc.",
-      "period": "2021 - Present",
-      "description": "Lead the design of flagship products, managing a team of 3 designers. Implemented a design system that reduced design inconsistencies by 60% and improved development time by 40%. Conducted user research and usability testing to inform product decisions.",
+      "title": "Staff Software Engineer / P4 Director",
+      "company": "Morgan Stanley",
+      "period": "04/2022 - Present",
+      "description": "Spearheaded the end-to-end development of key modules as a primary Individual Contributor. Led the migration of the critical 10b51 module from AngularJS to ReactJS with Redux, significantly improving UI performance and maintainability. Designed and built backend REST APIs using Java 11 and maintained microservices, ensuring alignment with business goals through collaboration with Solution Architects. Actively participated in sprint planning, code reviews, and mentoring junior engineers.",
       "achievements": [
-        "Redesigned the main dashboard, increasing user engagement by 35%",
-        "Led the design for 3 major feature launches, contributing to a 25% increase in user retention",
-        "Established design processes that improved team collaboration and product quality"
+        "Led AngularJS to ReactJS migration",
+        "Owned modules from POC to production",
+        "Improved UI performance and test coverage",
+        "Designed and built REST APIs in Java 11",
+        "Mentored junior engineers"
       ],
-      "technologies": ["Figma", "Adobe XD", "Prototyping", "User Research"]
+      "technologies": [
+        "Java 11",
+        "ReactJS",
+        "Redux",
+        "RxJS",
+        "AngularJS",
+        "REST APIs",
+        "Microservices",
+        "Gradle",
+        "Jenkins",
+        "Git",
+        "Bitbucket",
+        "SonarQube",
+        "OpenAPI (Swagger)"
+      ]
     },
     {
-      "title": "UX Designer",
-      "company": "Design Studio X",
-      "period": "2018 - 2021",
-      "description": "Collaborated with cross-functional teams to design intuitive and engaging user experiences for various client projects. Created wireframes, prototypes, and high-fidelity designs for web and mobile applications.",
+      "title": "Consultant",
+      "company": "Deloitte (for Sanofi)",
+      "period": "01/2020 - 04/2022",
+      "description": "Architected and delivered full-stack solutions for a major healthcare client. Developed modular UI components using Angular and built REST APIs in Java 11. Led the development and deployment of upstream applications in a serverless AWS architecture using Lambda, API Gateway, and Kubernetes. Functioned as a strong Individual Contributor within an Agile framework, coordinating with cross-functional teams to deliver features for safety-related, regulatory-compliant applications.",
       "achievements": [
-        "Designed interfaces for 12+ client projects across fintech, healthcare, and e-commerce",
-        "Improved conversion rates by an average of 22% through data-driven design iterations",
-        "Mentored junior designers and facilitated design thinking workshops"
+        "Led serverless application development",
+        "Architected and delivered Java REST APIs",
+        "Developed reusable Angular UI components",
+        "Improved UX with reactive programming (RxJS)",
+        "Owned full deployment in AWS"
       ],
-      "technologies": ["Sketch", "InVision", "User Testing", "Information Architecture"]
+      "technologies": [
+        "Angular",
+        "RxJS",
+        "Java 11",
+        "REST APIs",
+        "AWS Lambda",
+        "API Gateway",
+        "CloudWatch",
+        "Kubernetes",
+        "Gradle",
+        "Jenkins",
+        "Git",
+        "Bitbucket",
+        "Swagger"
+      ]
     },
     {
-      "title": "UI/UX Intern",
-      "company": "Creative Solutions",
-      "period": "2017 - 2018",
-      "description": "Assisted the design team in creating visual assets and interface components. Participated in brainstorming sessions and contributed to the design of marketing websites and mobile applications.",
+      "title": "Developer",
+      "company": "TransUnion LLC",
+      "period": "Jun 2017 - Dec 2019",
+      "project": "TUBS Online Modernization",
+      "description": "Continued on a project to modernize a legacy application to a microservices-based web application. As a full-stack developer, I was responsible for both front-end and back-end development. On the front end, I created new UI components and implemented various Angular 4 concepts. On the back end, I refactored legacy code to create RESTful API responses.",
       "achievements": [
-        "Redesigned the company website, improving mobile responsiveness",
-        "Created a component library that streamlined the design process",
-        "Conducted competitive analysis for 5 client projects"
+        "Migrated legacy application to microservices",
+        "Developed new UI components with Angular 4",
+        "Refactored legacy code to RESTful APIs"
       ],
-      "technologies": ["Adobe Creative Suite", "HTML/CSS", "Wireframing"]
+      "technologies": [
+        "Java",
+        "Spring",
+        "REST API",
+        "Spring Security",
+        "JDBC Template",
+        "Angular 4"
+      ]
+    },
+    {
+      "title": "Software Engineer",
+      "company": "Capgemini India Ltd.",
+      "period": "Jun 2016 - Jun 2017",
+      "project": "TUBS Batch",
+      "description": "Designed and developed a high-volume batch processing application using Java 7. The application utilized multi-threading to process millions of transactions efficiently. My responsibilities included creating and managing multiple batch jobs using the Executor framework and ThreadPool.",
+      "achievements": [
+        "Built a high-volume batch processing application",
+        "Implemented multi-threading for efficient transaction processing",
+        "Managed batch jobs using Executor framework and ThreadPool"
+      ],
+      "technologies": [
+        "Java 7",
+        "Multi-threading",
+        "ThreadPool",
+        "Executor Framework",
+        "Shell Scripting",
+        "AutoSYS",
+        "JDBC Template"
+      ]
+    },
+    {
+      "title": "Java - Trainee",
+      "company": "Jspiders",
+      "period": "05/2015 - 04/2016",
+      "description": "Completed comprehensive training at Jspiders in Spring and Hibernate, developing expertise in building robust and scalable enterprise applications. Gained in-depth knowledge of Spring and Hibernate at Jspiders, strengthening abilities to architect and build robust, scalable systems. Mastered Spring and Hibernate frameworks through intensive training at Jspiders, enabling the development of robust and scalable applications.",
+      "achievements": [],
+      "technologies": [
+        "Java",
+        "Spring",
+        "Hibernate"
+      ]
     }
   ],
   "credentials": {
-    "certifications": [
-      {
-        "name": "Certified UX Professional",
-        "issuer": "Nielsen Norman Group",
-        "date": "2022",
-        "logo": "/nng-logo.png"
-      },
-      {
-        "name": "Professional Product Designer",
-        "issuer": "Interaction Design Foundation",
-        "date": "2021",
-        "logo": "/generic-military-logo.png"
-      },
-      {
-        "name": "Design Leadership Certification",
-        "issuer": "IDEO",
-        "date": "2020",
-        "logo": "/ideo-logo.png"
-      }
-    ],
+    "certifications": [],
     "education": [
       {
-        "degree": "Master of Fine Arts in Design",
-        "institution": "Rhode Island School of Design",
-        "year": "2015-2017",
+        "degree": "B.Tech Electronics",
+        "institution": "Inderprastha Engineering College",
+        "year": "2010 - 2014",
         "logo": "/generic-art-school-logo.png"
-      },
-      {
-        "degree": "Bachelor of Arts in Visual Communication",
-        "institution": "California Institute of the Arts",
-        "year": "2011-2015",
-        "logo": "/calarts-logo.png"
       }
     ],
     "skills": [
-      "UI Design",
-      "UX Research",
-      "Design Systems",
-      "Wireframing",
-      "Prototyping",
-      "User Testing",
-      "Accessibility",
-      "Design Thinking"
+      "Full Stack Development",
+      "Software Architecture",
+      "Microservices",
+      "RESTful API",
+      "SQL",
+      "Java",
+      "Cloud-Native Development",
+      "DevOps Practices",
+      "JavaScript",
+      "Algorithms",
+      "Angular",
+      "React",
+      "SPA Development",
+      "Webpack",
+      "NPM",
+      "Spring Boot",
+      "Spring MVC",
+      "Hibernate",
+      "Kafka",
+      "JUnit",
+      "Mockito",
+      "Jest",
+      "SonarQube",
+      "Docker",
+      "Jenkins",
+      "Git",
+      "Scrum",
+      "Technical Leadership",
+      "Problem Solving",
+      "Code Review And Mentoring",
+      "System Design"
     ]
   },
   "technicalSkills": {
-    "design": ["Figma", "Sketch", "Adobe XD", "Illustrator", "Photoshop", "InVision", "Principle", "Framer"],
-    "development": ["HTML/CSS", "JavaScript", "React", "Tailwind", "SCSS", "Git", "Responsive Design"],
-    "uxMethods": [
-      "User Research",
-      "Usability Testing",
-      "Wireframing",
-      "Prototyping",
-      "Information Architecture",
-      "User Flows"
+    "development": [
+      "Java",
+      "Spring Boot",
+      "Spring MVC",
+      "Hibernate",
+      "Microservices",
+      "System Design",
+      "Distributed Systems",
+      "Event-Driven Architecture",
+      "Domain-Driven Design (DDD)",
+      "Angular",
+      "Reactjs",
+      "TypeScript",
+      "JavaScript",
+      "Webpack",
+      "NPM",
+      "AWS",
+      "Kubernetes",
+      "Docker",
+      "Terraform",
+      "Infrastructure as Code (IaC)",
+      "RESTful API",
+      "GraphQL",
+      "gRPC",
+      "SQL",
+      "NoSQL",
+      "Kafka",
+      "Redis",
+      "Jenkins",
+      "CI/CD",
+      "Observability",
+      "Prometheus",
+      "Grafana",
+      "JUnit",
+      "Mockito",
+      "Jest",
+      "SonarQube",
+      "Git",
+      "Scrum",
+      "Technical Leadership",
+      "Mentorship"
     ],
-    "softSkills": ["Team Leadership", "Project Management", "Client Communication", "Mentoring", "Presentations"]
+    "softSkills": [
+      "Technical Leadership",
+      "Complex Problem-Solving",
+      "Code Review and Mentoring",
+      "Cross-Functional Collaboration",
+      "Architectural Vision",
+      "Stakeholder Management",
+      "Influence Without Authority",
+      "Effective Communication",
+      "Business Acumen",
+      "Pragmatism"
+    ]
   },
   "leetcode": {
-    "username": "jane_doe_dev",
+    "username": "selvester69",
     "totalSolved": 847,
     "easySolved": 312,
     "mediumSolved": 421,
     "hardSolved": 114,
     "ranking": 15420,
     "streak": 45,
-    "badges": ["50 Days Badge 2024", "100 Days Badge 2023", "Knight Badge", "Guardian Badge"],
+    "badges": [
+      "50 Days Badge 2024",
+      "100 Days Badge 2023",
+      "Knight Badge",
+      "Guardian Badge"
+    ],
     "recentSubmissions": [
       {
         "title": "Two Sum",
@@ -247,21 +393,66 @@
       }
     ],
     "heatmapData": [
-      { "date": "2024-01-01", "count": 3 },
-      { "date": "2024-01-02", "count": 2 },
-      { "date": "2024-01-03", "count": 4 },
-      { "date": "2024-01-04", "count": 1 },
-      { "date": "2024-01-05", "count": 5 },
-      { "date": "2024-01-06", "count": 2 },
-      { "date": "2024-01-07", "count": 3 },
-      { "date": "2024-01-08", "count": 4 },
-      { "date": "2024-01-09", "count": 2 },
-      { "date": "2024-01-10", "count": 6 },
-      { "date": "2024-01-11", "count": 1 },
-      { "date": "2024-01-12", "count": 3 },
-      { "date": "2024-01-13", "count": 2 },
-      { "date": "2024-01-14", "count": 4 },
-      { "date": "2024-01-15", "count": 5 }
+      {
+        "date": "2024-01-01",
+        "count": 3
+      },
+      {
+        "date": "2024-01-02",
+        "count": 2
+      },
+      {
+        "date": "2024-01-03",
+        "count": 4
+      },
+      {
+        "date": "2024-01-04",
+        "count": 1
+      },
+      {
+        "date": "2024-01-05",
+        "count": 5
+      },
+      {
+        "date": "2024-01-06",
+        "count": 2
+      },
+      {
+        "date": "2024-01-07",
+        "count": 3
+      },
+      {
+        "date": "2024-01-08",
+        "count": 4
+      },
+      {
+        "date": "2024-01-09",
+        "count": 2
+      },
+      {
+        "date": "2024-01-10",
+        "count": 6
+      },
+      {
+        "date": "2024-01-11",
+        "count": 1
+      },
+      {
+        "date": "2024-01-12",
+        "count": 3
+      },
+      {
+        "date": "2024-01-13",
+        "count": 2
+      },
+      {
+        "date": "2024-01-14",
+        "count": 4
+      },
+      {
+        "date": "2024-01-15",
+        "count": 5
+      }
     ]
   }
 }

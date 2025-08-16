@@ -1,0 +1,217 @@
+{
+  "meta": {
+    "title": "Abhijeet Srivastava | Lead Full Stack Engineer",
+    "description": "Portfolio website showcasing full stack development work and skills"
+  },
+  "personal": {
+    "name": "Abhijeet Srivastava",
+    "title": "Lead full stack engineer",
+    "location": "Bengaluru",
+    "avatar": "/confident-professional.png",
+    "email": "abhijeet.sri1991@gmail.com",
+    "phone": "8010288216",
+    "workingHours": "Monday - Friday, 9am - 5pm IST",
+    "availableForWork": true,
+    "badges": ["Full Stack Development", "Software Architecture", "Microservices", "Cloud-Native Development", "DevOps Practices"],
+    "resumeUrl": "/AbhijeetResume.pdf",
+    "social": [
+      {
+        "platform": "GitHub",
+        "url": "#",
+        "icon": "Github"
+      },
+      {
+        "platform": "LinkedIn",
+        "url": "https://www.linkedin.com/in/abhijeets93/",
+        "icon": "Linkedin"
+      }
+      // ,
+      // {
+      //   "platform": "Twitter",
+      //   "url": "#",
+      //   "icon": "Twitter"
+      // },
+      // {
+      //   "platform": "Instagram",
+      //   "url": "#",
+      //   "icon": "Instagram"
+      // }
+    ]
+  },
+  "about": {
+    "bio": "Lead Full Stack Engineer with experience in full stack development using Java, Spring Microservices, Angular, Reactjs, and AWS.",
+    "focus": ["Full Stack Development", "Software Architecture", "Microservices", "RESTful API", "SQL", "Java", "Cloud-Native Development", "DevOps Practices", "JavaScript", "Algorithms", "Angular", "React", "SPA Development"],
+    "languages": [
+      {
+        "name": "English",
+        "proficiency": "Advanced",
+        "level": 90,
+        "flag": "🇬🇧"
+      }
+    ],
+    "interests": ["Technical Leadership", "Problem Solving", "Code Review And Mentoring", "System Design"]
+  },
+  "navigation": [
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Experience",
+      "href": "#experience"
+    },
+    {
+      "label": "Credentials",
+      "href": "#credentials"
+    },
+    {
+      "label": "Skills",
+      "href": "#skills"
+    },
+    {
+      "label": "Projects",
+      "href": "#projects"
+    },
+    {
+      "label": "LeetCode",
+      "href": "#leetcode"
+    },
+    {
+      "label": "Resume",
+      "href": "/AbhijeetResume.pdf",
+      "isDownload": true
+    }
+  ],
+  "experience": [
+    {
+      "title": "P4 Director",
+      "company": "Morgan Stanley",
+      "period": "04/2022 - Present",
+      "description": "Led the successful migration of an AngularJS application to ReactJS, leveraging a custom-built 'campfire' library. Implemented the SEC 10b51 rule across a suite of interconnected applications within the ESPP system, ensuring regulatory compliance and minimizing risk. Automated batch job setup for new developers using shell scripting, significantly reducing onboarding time and streamlining the development workflow.",
+      "achievements": ["Successful react migration", "Led AWS Serverless App Design", "Enhanced User Engagement", "Optimized Deployment Process"],
+      "technologies": ["ReactJS", "AngularJS", "Shell Scripting"]
+    },
+    {
+      "title": "Consultant",
+      "company": "Deloitte",
+      "period": "01/2021 - 04/2022",
+      "description": "Developed and deployed a microservices-based application on AWS utilizing a Kubernetes cluster, ensuring scalability and high availability. Engineered a suite of reusable Angular Ul components, enhancing development efficiency and consistency, and delivered new features in an Agile environment. Optimized frontend performance through targeted code refactoring, rigorous testing, and refined state management, resulting in a 15% reduction in average load times. Designed and implemented RESTful microservices for backend communication, ensuring seamless data exchange between services and the Ul. Architected and deployed an end-to-end upstream application on serverless AWS infrastructure, streamlining data processing and reducing operational costs.",
+      "achievements": [],
+      "technologies": ["AWS", "Kubernetes", "Angular", "RESTful microservices"]
+    },
+    {
+      "title": "Consultant",
+      "company": "Deloitte",
+      "period": "01/2020 - 01/2021",
+      "description": "Architected and deployed a serverless application on AWS, leveraging Lambda, API Gateway, and S3 for scalable and cost-effective solutions. Developed a highly dynamic and client-configurable frontend UI, enabling seamless customization and improved user experience for diverse client needs. Engineered robust REST APIs using AWS Lambda and API Gateway, implementing comprehensive CloudWatch logging to facilitate efficient support and troubleshooting. Drove full lifecycle ownership of the application, encompassing development, performance optimization, and automated deployment, resulting in a 20% reduction in deployment time.",
+      "achievements": [],
+      "technologies": ["AWS", "Lambda", "API Gateway", "S3", "REST APIs"]
+    },
+    {
+      "title": "Developer 1",
+      "company": "TransUnion",
+      "period": "06/2018 - 01/2020",
+      "description": "Migration of a critical legacy application to a modern microservices-based web application deployed on on-premise infrastructure. Developed reusable Ul components using Angular 4, implementing advanced concepts to enhance user experience and maintainability. Refactored complex legacy code into efficient RESTful APIs, improving performance and enabling seamless integration with the new microservices architecture. Leveraged Java, Spring, REST APIs, Spring Security, and JDBC templates to deliver robust and secure backend services.",
+      "achievements": [],
+      "technologies": ["Java", "Spring", "REST APIs", "Angular 4", "JDBC"]
+    },
+    {
+      "title": "Senior Software Engineer",
+      "company": "Capgemini India",
+      "period": "05/2016 - 06/2018",
+      "description": "Developed a high-performance, multithreaded batch processing application in Java 7, Autosys designed to handle and process millions of financial transactions efficiently. Leveraged JDBC templates for efficient database interactions, ensuring data integrity and optimizing transaction processing within the batch application.",
+      "achievements": [],
+      "technologies": ["Java 7", "Autosys", "JDBC"]
+    },
+    {
+      "title": "Java - Trainee",
+      "company": "Jspiders",
+      "period": "05/2015 - 04/2016",
+      "description": "Completed comprehensive training at Jspiders in Spring and Hibernate, developing expertise in building robust and scalable enterprise applications. Gained in-depth knowledge of Spring and Hibernate at Jspiders, strengthening abilities to architect and build robust, scalable systems. Mastered Spring and Hibernate frameworks through intensive training at Jspiders, enabling the development of robust and scalable applications.",
+      "achievements": [],
+      "technologies": ["Java", "Spring", "Hibernate"]
+    }
+  ],
+  "credentials": {
+    "certifications": [],
+    "education": [
+      {
+        "degree": "B.Tech Electronics",
+        "institution": "Inderprastha Engineering College",
+        "year": "2010 - 2014",
+        "logo": "/generic-art-school-logo.png"
+      }
+    ],
+    "skills": ["Full Stack Development", "Software Architecture", "Microservices", "RESTful API", "SQL", "Java", "Cloud-Native Development", "DevOps Practices", "JavaScript", "Algorithms", "Angular", "React", "SPA Development", "Webpack", "NPM", "Spring Boot", "Spring MVC", "Hibernate", "Kafka", "JUnit", "Mockito", "Jest", "SonarQube", "Docker", "Jenkins", "Git", "Scrum", "Technical Leadership", "Problem Solving", "Code Review And Mentoring", "System Design"]
+  },
+  "technicalSkills": {
+    "design": [],
+    "development": ["Java", "Spring", "Microservices", "Angular", "Reactjs", "AWS", "RESTful API", "SQL", "JavaScript", "Webpack", "NPM", "Spring Boot", "Spring MVC", "Hibernate", "Kafka", "JUnit", "Mockito", "Jest", "SonarQube", "Docker", "Jenkins", "Git", "Scrum"],
+    "uxMethods": [],
+    "softSkills": ["Technical Leadership", "Problem Solving", "Code Review And Mentoring", "System Design"]
+  },
+  "leetcode": {
+    "username": "jane_doe_dev",
+    "totalSolved": 847,
+    "easySolved": 312,
+    "mediumSolved": 421,
+    "hardSolved": 114,
+    "ranking": 15420,
+    "streak": 45,
+    "badges": ["50 Days Badge 2024", "100 Days Badge 2023", "Knight Badge", "Guardian Badge"],
+    "recentSubmissions": [
+      {
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "status": "Accepted",
+        "date": "2024-01-15",
+        "language": "JavaScript"
+      },
+      {
+        "title": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "status": "Accepted",
+        "date": "2024-01-14",
+        "language": "Python"
+      },
+      {
+        "title": "Median of Two Sorted Arrays",
+        "difficulty": "Hard",
+        "status": "Accepted",
+        "date": "2024-01-13",
+        "language": "JavaScript"
+      },
+      {
+        "title": "Add Two Numbers",
+        "difficulty": "Medium",
+        "status": "Accepted",
+        "date": "2024-01-12",
+        "language": "Python"
+      },
+      {
+        "title": "Palindromic Substrings",
+        "difficulty": "Medium",
+        "status": "Accepted",
+        "date": "2024-01-11",
+        "language": "JavaScript"
+      }
+    ],
+    "heatmapData": [
+      { "date": "2024-01-01", "count": 3 },
+      { "date": "2024-01-02", "count": 2 },
+      { "date": "2024-01-03", "count": 4 },
+      { "date": "2024-01-04", "count": 1 },
+      { "date": "2024-01-05", "count": 5 },
+      { "date": "2024-01-06", "count": 2 },
+      { "date": "2024-01-07", "count": 3 },
+      { "date": "2024-01-08", "count": 4 },
+      { "date": "2024-01-09", "count": 2 },
+      { "date": "2024-01-10", "count": 6 },
+      { "date": "2024-01-11", "count": 1 },
+      { "date": "2024-01-12", "count": 3 },
+      { "date": "2024-01-13", "count": 2 },
+      { "date": "2024-01-14", "count": 4 },
+      { "date": "2024-01-15", "count": 5 }
+    ]
+  }
+}
