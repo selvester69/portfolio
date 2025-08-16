@@ -51,14 +51,14 @@ const projects: Project[] = [
       "Atomic operations to prevent race conditions in a concurrent environment"
     ],
     "technologies": ["Java", "Spring Boot", "Redis", "Docker", "Kubernetes", "Prometheus", "Grafana", "gRPC"],
-    "coverImage": "/rate-limiter-architecture.png",
-    "thumbnailImage": "/rate-limiter-thumb.png",
+    "coverImage": "ratelimiter/architecture.png",
+    "thumbnailImage": "ratelimiter/distributed.png",
     "gallery": [
-      { "url": "/ratelimiter/architecture.png", "caption": "System Architecture Diagram" },
-      { "url": "/ratelimiter/distributed.png", "caption": "Distributed Architecture" },
-      { "url": "/ratelimiter/leakyBucket.png", "caption": "Algorithm - Leaky Bucket" },
-      { "url": "/ratelimiter/tokenBucket.png", "caption": "Algorithm Token Bucket" },
-      { "url": "/ratelimiter/raceCondition.png", "caption": "Race Condition" }
+      { "url": "ratelimiter/architecture.png", "caption": "System Architecture Diagram" },
+      { "url": "ratelimiter/distributed.png", "caption": "Distributed Architecture" },
+      { "url": "ratelimiter/leakyBucket.png", "caption": "Algorithm - Leaky Bucket" },
+      { "url": "ratelimiter/tokenBucket.png", "caption": "Algorithm Token Bucket" },
+      { "url": "ratelimiter/raceCondition.png", "caption": "Race Condition" }
     ],
     "timeline": "2025 Personal projects",
     "role": "Backend Software Engineer",
