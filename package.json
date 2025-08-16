@@ -1,6 +1,5 @@
 {
-  "homepage": "https://selvester69.github.io/test-portfolio",
-  "name": "my-v0-project",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {

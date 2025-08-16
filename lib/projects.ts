@@ -64,15 +64,15 @@ const projects: Project[] = [
     "role": "Backend Software Engineer",
     "liveUrl": "https://github.com/selvester69/rate-limiting-server",
     "githubUrl": "https://github.com/selvester69/rate-limiting-server",
-    "relatedProjects": [
-      {
-        "slug": "api-gateway",
-        "title": "API Gateway",
-        "category": "Backend System",
-        "image": "/ratelimiter/apiGateway.png"
-      }
-      //add more related projects
-    ]
+    // "relatedProjects": [
+    //   // {
+    //   //   "slug": "api-gateway",
+    //   //   "title": "API Gateway",
+    //   //   "category": "Backend System",
+    //   //   "image": "/ratelimiter/apiGateway.png"
+    //   // }
+    //   //add more related projects
+    // ]
   },
   // {
   //   id: 2,
@@ -183,7 +183,7 @@ export function getAllProjects(): Project[] {
 }
 
 export function getProjectBySlug(slug: string): Project | undefined {
-  return projects.find((project) => project.slug === slug)
+  return projects.find((project) => project?.slug === slug)
 }
 
 export function getRelatedProjects(currentSlug: string, limit = 2): RelatedProject[] {
@@ -194,7 +194,7 @@ export function getRelatedProjects(currentSlug: string, limit = 2): RelatedProje
       .filter((project) => project.slug !== currentSlug)
       .slice(0, limit)
       .map((project) => ({
-        slug: project.slug,
+        slug: project?.slug,
         title: project.title,
         category: project.category,
         image: project.thumbnailImage,

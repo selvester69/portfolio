@@ -17,7 +17,7 @@ interface ProjectPageProps {
 }
 
 export default function ProjectPage({ params }: ProjectPageProps) {
-  const project = getProjectBySlug(params.slug)
+  const project = getProjectBySlug(params?.slug)
 
   if (!project) {
     notFound()
@@ -176,15 +176,15 @@ export default function ProjectPage({ params }: ProjectPageProps) {
             </AnimatedSection>
 
             {/* Next Projects */}
-            <AnimatedSection animation="slide-left" delay={200}>
+            {/* <AnimatedSection animation="slide-left" delay={200}>
               <Card className="bg-zinc-900/70 border-zinc-800 backdrop-blur-sm">
                 <CardContent className="p-4 sm:p-6">
                   <h2 className="text-lg sm:text-xl font-bold mb-3 sm:mb-4">More Projects</h2>
                   <div className="space-y-3 sm:space-y-4">
-                    {project.relatedProjects &&
-                      project.relatedProjects.map((related, index) => (
+                    {project.relatedProjects && project.relatedProjects.length > 0 &&
+                      project?.relatedProjects?.map((related, index) => (
                         <AnimatedSection key={index} animation="fade-up" delay={100 * (index + 1)}>
-                          <Link href={`/projects/${related.slug}`} className="block group">
+                          <Link href={`/projects/${related?.slug}`} className="block group">
                             <div className="flex items-center gap-2 sm:gap-3">
                               <div className="relative w-12 h-12 sm:w-16 sm:h-16 rounded overflow-hidden flex-shrink-0">
                                 <Image
@@ -207,7 +207,7 @@ export default function ProjectPage({ params }: ProjectPageProps) {
                   </div>
                 </CardContent>
               </Card>
-            </AnimatedSection>
+            </AnimatedSection> */}
           </div>
         </div>
 
