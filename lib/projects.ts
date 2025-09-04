@@ -52,13 +52,13 @@ const projects: Project[] = [
     ],
     "technologies": ["Java", "Spring Boot", "Redis", "Docker", "Kubernetes", "Prometheus", "Grafana", "gRPC"],
     "coverImage": "/ratelimiter/architecture.png",
-    "thumbnailImage": "/ratelimiter/distributed.png",
+    "thumbnailImage": "/portfolio/ratelimiter/distributed.png",
     "gallery": [
-      { "url": "/ratelimiter/architecture.png", "caption": "System Architecture Diagram" },
-      { "url": "/ratelimiter/distributed.png", "caption": "Distributed Architecture" },
-      { "url": "/ratelimiter/leakyBucket.png", "caption": "Algorithm - Leaky Bucket" },
-      { "url": "/ratelimiter/tokenBucket.png", "caption": "Algorithm Token Bucket" },
-      { "url": "/ratelimiter/raceCondition.png", "caption": "Race Condition" }
+      { "url": "/portfolio/ratelimiter/architecture.png", "caption": "System Architecture Diagram" },
+      { "url": "/portfolio/ratelimiter/distributed.png", "caption": "Distributed Architecture" },
+      { "url": "/portfolio/ratelimiter/leakyBucket.png", "caption": "Algorithm - Leaky Bucket" },
+      { "url": "/portfolio/ratelimiter/tokenBucket.png", "caption": "Algorithm Token Bucket" },
+      { "url": "/portfolio/ratelimiter/raceCondition.png", "caption": "Race Condition" }
     ],
     "timeline": "2025 Personal projects",
     "role": "Backend Software Engineer",
