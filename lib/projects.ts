@@ -51,7 +51,7 @@ const projects: Project[] = [
       "Atomic operations to prevent race conditions in a concurrent environment"
     ],
     "technologies": ["Java", "Spring Boot", "Redis", "Docker", "Kubernetes", "Prometheus", "Grafana", "gRPC"],
-    "coverImage": "/ratelimiter/architecture.png",
+    "coverImage": "/portfolio/ratelimiter/architecture.png",
     "thumbnailImage": "/portfolio/ratelimiter/distributed.png",
     "gallery": [
       { "url": "/portfolio/ratelimiter/architecture.png", "caption": "System Architecture Diagram" },
