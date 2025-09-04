@@ -8,8 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "serve": "serve out",
-    "deploy": "next build && gh-pages -d out -r https://x-access-token:${GITHUB_TOKEN}@github.com/<selvester69>/<portfolio>.git",
-    "export": "next export"
+    "deploy": "next build && gh-pages -d out -r https://x-access-token:${GITHUB_TOKEN}@github.com/<selvester69>/<portfolio>.git"
   },
   "dependencies": {
     "@hookform/resolvers": "latest",
