@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "serve": "serve out",
-    "deploy": "next build && touch out/.nojekyll && gh-pages -d out"
+    "deploy": "next build && gh-pages -d out -r https://x-access-token:${GITHUB_TOKEN}@github.com/<selvester69>/<portfolio>.git",
+    "export": "next export"
   },
   "dependencies": {
     "@hookform/resolvers": "latest",
